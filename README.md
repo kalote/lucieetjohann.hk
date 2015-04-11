@@ -1,2 +1,2 @@
-# johannetlucie.hk
+# lucieetjohann.hk
 Wordpress blog about our adventures in Hong Kong
