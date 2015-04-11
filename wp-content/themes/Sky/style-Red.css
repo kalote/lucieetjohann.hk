@@ -1,0 +1,4 @@
+body { background: url(images/red/body-bg.png); }
+.content-bottom { background: url(images/red/content-bottom-bg.png) no-repeat; }
+h1#page-title, h3#comments, h3#reply-title { color: #826565; }
+.wp-pagenavi { background: url(images/red/pagination_bg.png) no-repeat top center; }

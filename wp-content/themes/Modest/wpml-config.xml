@@ -1,0 +1,12 @@
+<wpml-config>
+	<admin-texts>
+		<key name="modest_header_tagline"/>
+		<key name="modest_date_format"/>
+		<key name="modest_quote_one"/>
+		<key name="modest_quote_two"/>
+		<key name="modest_footer_quote_text"/>
+		<key name="modest_seo_home_titletext"/>
+		<key name="modest_seo_home_descriptiontext"/>
+		<key name="modest_seo_home_keywordstext"/>
+	</admin-texts>
+</wpml-config>

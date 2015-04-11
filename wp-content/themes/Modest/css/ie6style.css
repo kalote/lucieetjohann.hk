@@ -1,0 +1,9 @@
+.right-shadow, .left-shadow { background-image: none; }
+ul.nav a { border: none !important; }
+a.readmore, a.readmore span, .gotoslide, .reply-container, .reply-container a { background: none; }
+a.featured-link { background: none; }
+a.readmore, a.readmore span, .reply-container, .reply-container a { display: inline; }
+#left-area, #sidebar { display: inline; }
+#left-area { width: 600px; }
+p#quote-1 { line-height: 40px;}
+#icons span { margin-left: 320px;}

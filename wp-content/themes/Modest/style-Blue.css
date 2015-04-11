@@ -1,0 +1,48 @@
+body { color: #ffffff; background: #203036; }
+h1,h2,h3,h4,h5,h6 { color: #fff; }
+	.right-shadow { background: #2d4047 url(images/blue/right-shadow.png) repeat-y top right; }
+		.left-shadow { background:url(images/blue/left-shadow.png) repeat-y top left; }
+			#header { border-bottom: 1px solid #374d55; }
+				p#quote-1 { color: #ffffff; }
+					span.tagline-quote { color: #ffffff; }
+					.blurb h3.title  { border-bottom: 1px solid #374d55; color: #758b8d; }
+						.thumb span.overlay { background:url(images/blue/box-overlay.png) no-repeat; }
+			#call-to-action { border-top: 1px solid #374d55; }
+				#call-to-action p { color: #fefefe; }
+				span#down-arrow { background:url(images/blue/down-arrow.png) no-repeat; }
+
+				ul#top-menu a { color: #ffffff; }
+				ul#top-menu > li.sfHover > a { border: 1px solid #374d55; }
+					ul#top-menu ul { background: #2d4047; border: 1px solid #374d55; }
+						ul#top-menu ul li { background: url(images/black/footer-bullet.png) no-repeat 0px 15px; }
+
+			#footer { background: #203036; }
+				#footer .right-shadow { background: url(images/blue/footer-right-shadow.png) repeat-y top right; }
+					#footer .left-shadow { background: url(images/blue/footer-left-shadow.png) repeat-y top left; }
+						#footer-top { background: url(images/blue/footer-top-bg.png) repeat-x;  }
+							#footer-widgets { background: none; border-bottom: 1px solid #273940; }
+								#footer-logo span { text-shadow: none; }
+								.footer-widget p { color: #fefefe; text-shadow: none; }
+								.footer-widget a { color: #fefefe; text-shadow: none; }
+								.footer-widget a:hover { color: #e7e7e7; }
+									.footer-widget ul li { background:url(images/black/footer-bullet.png) no-repeat 0 7px; }
+										ul.bottom-nav li a {color:#ffffff; text-shadow: none;}
+									p#copyright { color:#ffffff; text-shadow: none; }
+										p#copyright a { color:#758b8d; }
+
+				h1.category-title { color: #ffffff; }
+				#left-area { border-top: 1px solid #374d55; border-right: 1px solid #374d55; }
+				#sidebar { border-top: 1px solid #374d55; }
+					h2.title a { color: #ffffff; }
+						.post p.meta-info a:hover { color: #ffffff; }
+
+						.widget h4.widgettitle { color: #ffffff; }
+							.widget ul li { background:url(images/black/footer-bullet.png) no-repeat 0 12px; }
+								.widget ul li a { color:#979797; text-shadow:none; text-decoration: none; }
+									.widget ul li a:hover { color:#767676; }
+
+			h3#comments { background: url(images/blue/comment-title-bg.png) repeat-x 0px 17px; color: #fff; }
+				h3#comments span { background: #2d4047; }
+				span.fn, span.fn a { color: #ffffff; }
+					span.fn a:hover { color: #eee; }
+			.single p.description a:hover { color: #fff; }

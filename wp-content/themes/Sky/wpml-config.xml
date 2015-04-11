@@ -1,0 +1,11 @@
+<wpml-config>
+	<admin-texts>
+		<key name="sky_date_format"/>
+		<key name="sky_comment_date_format"/>
+		<key name="sky_homepage_title"/>
+		<key name="sky_homepage_tagline"/>
+		<key name="sky_seo_home_titletext"/>
+		<key name="sky_seo_home_descriptiontext"/>
+		<key name="sky_seo_home_keywordstext"/>
+	</admin-texts>
+</wpml-config>

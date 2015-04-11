@@ -1,0 +1,177 @@
+version 2.8 ( updated 02-25-2014 )
+- Fixed the issue with slashes added to Name, Subject and Message fields in the contact form
+	* page-contact.php
+- Fixed the issue with resizing of images that have the x symbol between width and height values in the filename
+- Fixed the issue with .jpeg images and uppercase extensions in cached files
+- The theme doesn't strip slashes from custom css now, when saving the option to the database
+- Removed buzz shortcode ( Google retired Buzz )
+- Fixed ePanel SEO home options not appearing on static front page
+- Better compatibility with WordPress SEO and All In One SEO Pack plugins. ePanel SEO is disabled if these plugins are active now.
+	* epanel/core_functions.php
+	* epanel/custom_functions.php
+	* epanel/shortcodes/shortcodes.php
+- Bumped version number
+	* style.css
+
+version 2.7 ( updated 12-23-2013 )
+- Now you can update Elegant Themes in the Dashboard: https://www.elegantthemes.com/members-area/documentation.html#updater
+	* epanel/custom_functions.php
+- Bumped version number
+	* style.css
+
+version 2.6 ( updated 09-13-2013 )
+- Fixed the Toggle shortcode ( [learn_more] ) functionality
+	* js/custom.js
+- Fixed Tabs shortcode layout issues with the slide effect
+	* epanel/shortcodes/css/shortcodes.css
+	* epanel/shortcodes/shortcodes.php
+- Bumped version number
+	* style.css
+
+version 2.5 ( updated 08-02-2013 )
+- Fixed separate_comments function notice
+	* epanel/custom_functions.php
+- Bumped version number
+	* style.css
+
+version 2.4 ( updated 06-26-2013 )
+- Fixed the category option in slider
+	* includes/featured.php
+- Fixed Post/Page Editor Word Count Problem
+- Fixed issue with left tabs shortcode
+- Fixed tooltip glitch
+- Fixed issue with span in pricing table
+- Fixed get_current_theme warning message.
+- Fixed the issue with Fancybox videos not working on second launch in WordPress 3.6
+- Added shortcodes names to shortcode_atts() to enable filtering
+
+List of modified files:
+* epanel/custom_functions.php
+* epanel/page_templates/js/et-ptemplates-frontend.js
+* epanel/page_templates/js/fancybox/jquery.fancybox-1.3.4.pack.js
+* epanel/shortcodes/css/shortcodes.css
+* epanel/shortcodes/js/et_shortcodes_frontend.js
+* epanel/shortcodes/js/et_shortcodes_frontend.dev.js
+* epanel/shortcodes/shortcodes.php
+
+version 2.3 ( updated 04-06-2013 )
+- Fixed menu links issue in IE
+	* js/custom.js
+- Bumped version number
+	* style.css
+
+version 2.2 ( updated 04-02-2013 )
+- Integrated the default WordPress image system. It makes the theme work better on shared hostings and provides compatibility with plugins ( JetPack, WP Retina etc. ). Please, regenerate thumbnails after theme update ( http://wordpress.org/extend/plugins/regenerate-thumbnails/ ).
+- Full compatiblity with WPML plugin
+- Added 'Custom CSS' option to ePanel
+- Fixed 'Shortcode Slideshow Only Displays 11 Images' issue
+- Added alt attribute to the imagetab shortcode
+- Fixed update notification notice in WP-Admin
+- Fixed image issues with clean WordPress Multisite 3.5 installation
+- Added et_videolink_embed custom field ( it provides the way to use video embed code for posts in the Portfolio page template )
+- Improved ePanel functionality
+- Improvement: Contact form error notifications are translatable via localization files now
+- Code improvements
+
+Nearly all files have been updated this time. Please, make sure you update all files.
+
+version 2.1 ( updated 12-12-2012 )
+- Fixed slider and background issues
+	* js/jquery.address-1.4.min.js
+	* js/jquery.backgroundPosition.js
+- Bumped version number
+	* style.css
+
+version 2.0 ( updated 12-06-2012 )
+- Updated image resizing to utilize WP_Image_Editor object, available in WordPress 3.5 ( http://make.wordpress.org/core/2012/12/06/wp_image_editor-is-incoming/ )
+	* epanel/custom_functions.php
+
+version 1.9 ( updated 12-04-2012 )
+- Fixed ePanel active tab issue in WordPress 3.5
+	* epanel/css/panel.css
+- Bumped version number
+	* style.css
+
+version 1.8 ( updated 10-01-2012 )
+- Fixed translation string in comments:
+	* includes/functions/comments.php
+- Fixed tab shortcode issues on iPhone
+	* epanel/shortcodes/css/shortcodes.css
+- Fixed contact form jquery validation bug
+	* epanel/page_templates/js/et-ptemplates-frontend.js
+- Shortcodes now work in excerpts
+- Fixed SEO custom title issue with static homepage
+	* epanel/custom_functions.php
+- Fixed contact form issue on Bluehost
+	* page-contact.php
+- Fixed ePanel options description
+	* epanel/options_sky.php
+- Bumped version number
+	* style.css
+
+version 1.7 ( updated 9-5-2012 )
+- Updated shortcodes
+	* epanel/shortcodes folder
+	* epanel/custom_functions.php
+	* page-login.php
+- Bumped version number
+	* style.css
+
+version 1.6 ( updated 8-12-2012 )
+- Updated fonts folder
+- Fixed comments issue:
+	* js/custom.js
+- Fixed contact form labels localization
+	* page-contact.php
+	* epanel/page_templates/page_templates.css
+	* epanel/page_templates/js/et-ptemplates-frontend.js
+	* updated lang folder
+- Updated ePanel core files:
+	* epanel/core_functions.php
+	* epanel/custom_functions.php
+
+version 1.5 ( updated 6-14-2012 )
+- Fixed WP 3.4 compatibility issues
+        * epanel/js/custom_uploader.js
+        * epanel/custom_functions.php
+
+version 1.4 ( Updated: 4-04-2012 )
+- Fixed Featured slider 'Number of slides' option
+	* includes/featured.php
+- Fixed Featured slider bug, when using one slide
+	* js/custom.js
+- Improved shortcodes functionality ( now you can use ET Tabs inside of the ET Learn more block )
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+	* epanel/shortcodes/shortcodes.css
+
+version 1.3 ( Updated: 3-13-2012 )
+- Added width and height attributes to images, small images stretch to fill the space now
+	* custom_functions.php
+- Deleted Support Docs, replaced it with the link to site documentation
+	* epanel/options_sky.php
+	* includes/functions/installation.php
+- Improved ePanel page select box functionality and compatibility with qTranslate and WPML plugins
+	* epanel/core_functions.php
+	* epanel/options_sky.php
+- Shortcodes improvements
+	* epanel/shortcodes/shortcodes.css
+	* epanel/shortcodes/js/et_shortcodes_frontend.js
+- Improved et_videolink compatibility with iPhone and iPad, you can use videos from these sites now: http://goo.gl/U7Iuj
+	* style.css
+	* page-template-portfolio.php
+	* epanel/page_templates/js/fancybox/jquery.fancybox--1.3.4.pack.js
+- Added slider loading bar
+	* style.css
+	* js/custom.js
+	* images/ajax-loader2.gif
+
+version 1.2 ( Updated: 1-25-2012 )
+- improved thumbnail resizing system ( epanel/custom_functions.php )
+- fixed simple slider shortcode "slide" effect issue ( epanel/shortcodes/js/et_shortcodes_frontend.js )
+- increased superfish menu delay
+
+version 1.1
+- fixed tab and slider shortcodes
+- fixed IE9 home url link issue
+- added an option to disable Ajax
+    * modified files: functions.php, 'js/custom.js', 'epanel/options_sky.php', 'epanel/shortcodes/shortcodes.php', 'epanel/shortcodes/js/et_shortcodes_frontend.js'
