@@ -38,7 +38,7 @@
 <body <?php body_class(); ?>>
 	<div id="bg"></div>
 	<div id="container">
-		<header id="main_header" class="clearfix">
+		<!--<header id="main_header" class="clearfix">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<?php $logo = '' != get_option( 'sky_logo' ) ? esc_attr( get_option( 'sky_logo' ) ) : get_template_directory_uri() . '/images/logo.png'; ?>
 				<img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" />
@@ -49,6 +49,6 @@
 				if ( $primaryNav ) echo( $primaryNav );
 				else echo( '<p id="menu_notification">' . esc_html__( 'Please, setup the menu via WP-Admin / Menus', 'Sky' ) . '</p>' );
 			?>
-		</header> <!-- end #main_header -->
+		</header> end #main_header -->
 		<div id="content">
 			<?php get_template_part( 'includes/top_info' ); ?>
