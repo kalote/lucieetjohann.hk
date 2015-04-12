@@ -109,7 +109,7 @@ html { height: 100%; margin-bottom: 1px; }
 
 		#logo { float: left; margin-right: 34px; margin-left: 110px; }
 		#top-menu { float: left; padding-top: 40px; }
-		#content { position: relative; }
+		#content { position: relative; margin-top: 10px;}
 			h1#page-title { text-align:center; font-size:70px; text-transform: uppercase; color:#65827d; }
 			p#tagline { font-family: 'Goudy Bookletter 1911', Arial, sans-serif; font-size: 22px; color: #1d1d1d; color:#fff; text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
 			background:url(images/tagline-bg.png) no-repeat right bottom; display:block; padding-right:86px; height: 51px; margin-left: 8%; margin-right: 8%; line-height:45px; z-index: 100; position: relative; margin-top: 8px; }
